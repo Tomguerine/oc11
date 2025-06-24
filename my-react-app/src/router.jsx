@@ -1,23 +1,19 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-
-function Home() {
-  return <h1>Home Page</h1>
-}
-
-function About() {
-  return <h1>About Page</h1>
-}
-
-function NotFound() {
-  return <h1>404 - Not Found</h1>
-}
+import Header from './components/Header'
+import Home from './pages/Home'
+import About from './pages/About'
+import Property from './pages/Property'
+import NotFound from './pages/NotFound'
 
 export default function Router() {
   return (
     <BrowserRouter>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/property/:id" element={<Property />} />
+        <Route path="/404" element={<NotFound />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
