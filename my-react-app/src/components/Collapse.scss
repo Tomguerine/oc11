@@ -1,0 +1,19 @@
+.collapse {
+  margin: 1rem 0;
+  .collapse-header {
+    background: #f1f1f1;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 0.5rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  .collapse-content {
+    padding: 0.5rem;
+    background: #fafafa;
+  }
+}
