@@ -1,7 +1,13 @@
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   padding: 1rem;
+
+  img {
+    height: 40px;
+  }
+
   nav a {
     margin: 0 1rem;
     text-decoration: none;
