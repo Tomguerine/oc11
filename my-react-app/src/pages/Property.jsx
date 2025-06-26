@@ -2,6 +2,9 @@ import { useParams, Navigate } from 'react-router-dom'
 import data from '../../data/data.json'
 import Slideshow from '../components/Slideshow'
 import Collapse from '../components/Collapse'
+import HostInfo from '../components/HostInfo'
+import RatingStars from '../components/RatingStars'
+import TagList from '../components/TagList'
 import './Property.scss'
 
 export default function Property() {
@@ -13,8 +16,17 @@ export default function Property() {
   return (
     <div className="property">
       <Slideshow images={item.pictures} />
-      <h1>{item.title}</h1>
-      <p>{item.location}</p>
+      <div className="header">
+        <div className="main-info">
+          <h1>{item.title}</h1>
+          <p>{item.location}</p>
+          <TagList tags={item.tags} />
+        </div>
+        <div className="side-info">
+          <HostInfo name={item.host.name} picture={item.host.picture} />
+          <RatingStars rating={parseInt(item.rating, 10)} />
+        </div>
+      </div>
       <Collapse title="Description">{item.description}</Collapse>
       <Collapse title="Équipements">
         <ul>
