@@ -1,7 +1,9 @@
+@use '../styles/variables' as *;
+
 .collapse {
   margin: 1rem 0;
   .collapse-header {
-    background: #f1f1f1;
+    background: $light-bg;
     border: none;
     width: 100%;
     text-align: left;
@@ -14,6 +16,6 @@
   }
   .collapse-content {
     padding: 0.5rem;
-    background: #fafafa;
+    background: $light-bg;
   }
 }
