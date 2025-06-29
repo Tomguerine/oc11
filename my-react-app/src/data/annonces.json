@@ -1,0 +1,322 @@
+[
+  {
+    "id": "1",
+    "title": "Appartement cosy proche plage",
+    "location": "Biarritz, France",
+    "cover": "https://via.placeholder.com/600x400?text=Cover+1",
+    "pictures": [
+      "https://via.placeholder.com/600x400?text=1-1",
+      "https://via.placeholder.com/600x400?text=1-2",
+      "https://via.placeholder.com/600x400?text=1-3"
+    ],
+    "description": "Logement confortable situé à deux pas de l'océan.",
+    "host": {"name": "Alice", "picture": "https://via.placeholder.com/100x100?text=Alice"},
+    "rating": "4",
+    "equipments": ["Wi-Fi", "Cuisine", "Parking"],
+    "tags": ["mer", "famille"]
+  },
+  {
+    "id": "2",
+    "title": "Studio au coeur de la ville",
+    "location": "Lyon, France",
+    "cover": "https://via.placeholder.com/600x400?text=Cover+2",
+    "pictures": [
+      "https://via.placeholder.com/600x400?text=2-1",
+      "https://via.placeholder.com/600x400?text=2-2",
+      "https://via.placeholder.com/600x400?text=2-3"
+    ],
+    "description": "Studio lumineux dans le centre historique.",
+    "host": {"name": "Bruno", "picture": "https://via.placeholder.com/100x100?text=Bruno"},
+    "rating": "5",
+    "equipments": ["Wi-Fi", "Climatisation"],
+    "tags": ["centre-ville", "calme"]
+  },
+  {
+    "id": "3",
+    "title": "Maison spacieuse avec jardin",
+    "location": "Bordeaux, France",
+    "cover": "https://via.placeholder.com/600x400?text=Cover+3",
+    "pictures": [
+      "https://via.placeholder.com/600x400?text=3-1",
+      "https://via.placeholder.com/600x400?text=3-2",
+      "https://via.placeholder.com/600x400?text=3-3"
+    ],
+    "description": "Grande maison idéale pour les familles.",
+    "host": {"name": "Claire", "picture": "https://via.placeholder.com/100x100?text=Claire"},
+    "rating": "3",
+    "equipments": ["Piscine", "Barbecue", "Parking"],
+    "tags": ["jardin", "spacieux"]
+  },
+  {
+    "id": "4",
+    "title": "Chalet à la montagne",
+    "location": "Chamonix, France",
+    "cover": "https://via.placeholder.com/600x400?text=Cover+4",
+    "pictures": [
+      "https://via.placeholder.com/600x400?text=4-1",
+      "https://via.placeholder.com/600x400?text=4-2",
+      "https://via.placeholder.com/600x400?text=4-3"
+    ],
+    "description": "Chalet chaleureux avec vue sur le Mont-Blanc.",
+    "host": {"name": "David", "picture": "https://via.placeholder.com/100x100?text=David"},
+    "rating": "5",
+    "equipments": ["Sauna", "Cheminée"],
+    "tags": ["montagne", "ski"]
+  },
+  {
+    "id": "5",
+    "title": "Maison de campagne",
+    "location": "Limoges, France",
+    "cover": "https://via.placeholder.com/600x400?text=Cover+5",
+    "pictures": [
+      "https://via.placeholder.com/600x400?text=5-1",
+      "https://via.placeholder.com/600x400?text=5-2",
+      "https://via.placeholder.com/600x400?text=5-3"
+    ],
+    "description": "Venez vous ressourcer dans cette maison au calme.",
+    "host": {"name": "Emma", "picture": "https://via.placeholder.com/100x100?text=Emma"},
+    "rating": "4",
+    "equipments": ["Wi-Fi", "Parking"],
+    "tags": ["campagne"]
+  },
+  {
+    "id": "6",
+    "title": "Villa moderne avec piscine",
+    "location": "Nice, France",
+    "cover": "https://via.placeholder.com/600x400?text=Cover+6",
+    "pictures": [
+      "https://via.placeholder.com/600x400?text=6-1",
+      "https://via.placeholder.com/600x400?text=6-2",
+      "https://via.placeholder.com/600x400?text=6-3"
+    ],
+    "description": "Villa entièrement équipée idéale pour se détendre.",
+    "host": {"name": "Fabien", "picture": "https://via.placeholder.com/100x100?text=Fabien"},
+    "rating": "5",
+    "equipments": ["Piscine", "Climatisation"],
+    "tags": ["luxe", "mer"]
+  },
+  {
+    "id": "7",
+    "title": "Appartement moderne",
+    "location": "Paris, France",
+    "cover": "https://via.placeholder.com/600x400?text=Cover+7",
+    "pictures": [
+      "https://via.placeholder.com/600x400?text=7-1",
+      "https://via.placeholder.com/600x400?text=7-2",
+      "https://via.placeholder.com/600x400?text=7-3"
+    ],
+    "description": "Appartement bien situé près des transports.",
+    "host": {"name": "Gabriel", "picture": "https://via.placeholder.com/100x100?text=Gabriel"},
+    "rating": "4",
+    "equipments": ["Wi-Fi", "Ascenseur"],
+    "tags": ["ville"]
+  },
+  {
+    "id": "8",
+    "title": "Loft industriel",
+    "location": "Lille, France",
+    "cover": "https://via.placeholder.com/600x400?text=Cover+8",
+    "pictures": [
+      "https://via.placeholder.com/600x400?text=8-1",
+      "https://via.placeholder.com/600x400?text=8-2",
+      "https://via.placeholder.com/600x400?text=8-3"
+    ],
+    "description": "Loft spacieux au style industriel chic.",
+    "host": {"name": "Helene", "picture": "https://via.placeholder.com/100x100?text=Helene"},
+    "rating": "5",
+    "equipments": ["Wi-Fi", "Cuisine", "Lave-linge"],
+    "tags": ["loft", "style"]
+  },
+  {
+    "id": "9",
+    "title": "Appartement vintage",
+    "location": "Marseille, France",
+    "cover": "https://via.placeholder.com/600x400?text=Cover+9",
+    "pictures": [
+      "https://via.placeholder.com/600x400?text=9-1",
+      "https://via.placeholder.com/600x400?text=9-2",
+      "https://via.placeholder.com/600x400?text=9-3"
+    ],
+    "description": "Charme de l'ancien avec décoration vintage.",
+    "host": {"name": "Isabelle", "picture": "https://via.placeholder.com/100x100?text=Isabelle"},
+    "rating": "3",
+    "equipments": ["Wi-Fi", "Télévision"],
+    "tags": ["vintage"]
+  },
+  {
+    "id": "10",
+    "title": "Maison en bord de mer",
+    "location": "La Rochelle, France",
+    "cover": "https://via.placeholder.com/600x400?text=Cover+10",
+    "pictures": [
+      "https://via.placeholder.com/600x400?text=10-1",
+      "https://via.placeholder.com/600x400?text=10-2",
+      "https://via.placeholder.com/600x400?text=10-3"
+    ],
+    "description": "Vue imprenable sur l'océan depuis la terrasse.",
+    "host": {"name": "Julie", "picture": "https://via.placeholder.com/100x100?text=Julie"},
+    "rating": "4",
+    "equipments": ["Wi-Fi", "Parking", "Cuisine"],
+    "tags": ["mer", "vue"]
+  },
+  {
+    "id": "11",
+    "title": "Duplex rénové",
+    "location": "Strasbourg, France",
+    "cover": "https://via.placeholder.com/600x400?text=Cover+11",
+    "pictures": [
+      "https://via.placeholder.com/600x400?text=11-1",
+      "https://via.placeholder.com/600x400?text=11-2",
+      "https://via.placeholder.com/600x400?text=11-3"
+    ],
+    "description": "Duplex moderne au coeur de la Petite France.",
+    "host": {"name": "Kevin", "picture": "https://via.placeholder.com/100x100?text=Kevin"},
+    "rating": "5",
+    "equipments": ["Wi-Fi", "Télévision", "Climatisation"],
+    "tags": ["duplex", "centre"]
+  },
+  {
+    "id": "12",
+    "title": "Gîte rural",
+    "location": "Dordogne, France",
+    "cover": "https://via.placeholder.com/600x400?text=Cover+12",
+    "pictures": [
+      "https://via.placeholder.com/600x400?text=12-1",
+      "https://via.placeholder.com/600x400?text=12-2",
+      "https://via.placeholder.com/600x400?text=12-3"
+    ],
+    "description": "Authentique gîte en pierre au coeur de la nature.",
+    "host": {"name": "Luc", "picture": "https://via.placeholder.com/100x100?text=Luc"},
+    "rating": "4",
+    "equipments": ["Piscine", "Cheminée"],
+    "tags": ["nature", "calme"]
+  },
+  {
+    "id": "13",
+    "title": "Cabane dans les arbres",
+    "location": "Millau, France",
+    "cover": "https://via.placeholder.com/600x400?text=Cover+13",
+    "pictures": [
+      "https://via.placeholder.com/600x400?text=13-1",
+      "https://via.placeholder.com/600x400?text=13-2",
+      "https://via.placeholder.com/600x400?text=13-3"
+    ],
+    "description": "Séjour insolite au plus près de la nature.",
+    "host": {"name": "Nina", "picture": "https://via.placeholder.com/100x100?text=Nina"},
+    "rating": "5",
+    "equipments": ["Petit-déjeuner", "Parking"],
+    "tags": ["insolite", "nature"]
+  },
+  {
+    "id": "14",
+    "title": "Appartement design",
+    "location": "Toulouse, France",
+    "cover": "https://via.placeholder.com/600x400?text=Cover+14",
+    "pictures": [
+      "https://via.placeholder.com/600x400?text=14-1",
+      "https://via.placeholder.com/600x400?text=14-2",
+      "https://via.placeholder.com/600x400?text=14-3"
+    ],
+    "description": "Appartement décoré par un architecte d'intérieur.",
+    "host": {"name": "Oscar", "picture": "https://via.placeholder.com/100x100?text=Oscar"},
+    "rating": "4",
+    "equipments": ["Wi-Fi", "Machine à laver"],
+    "tags": ["design"]
+  },
+  {
+    "id": "15",
+    "title": "Appartement avec terrasse",
+    "location": "Montpellier, France",
+    "cover": "https://via.placeholder.com/600x400?text=Cover+15",
+    "pictures": [
+      "https://via.placeholder.com/600x400?text=15-1",
+      "https://via.placeholder.com/600x400?text=15-2",
+      "https://via.placeholder.com/600x400?text=15-3"
+    ],
+    "description": "Profitez d'une grande terrasse ensoleillée.",
+    "host": {"name": "Patricia", "picture": "https://via.placeholder.com/100x100?text=Patricia"},
+    "rating": "3",
+    "equipments": ["Wi-Fi", "Cuisine", "Parking"],
+    "tags": ["terrasse", "soleil"]
+  },
+  {
+    "id": "16",
+    "title": "Maison familiale",
+    "location": "Rennes, France",
+    "cover": "https://via.placeholder.com/600x400?text=Cover+16",
+    "pictures": [
+      "https://via.placeholder.com/600x400?text=16-1",
+      "https://via.placeholder.com/600x400?text=16-2",
+      "https://via.placeholder.com/600x400?text=16-3"
+    ],
+    "description": "Parfait pour un séjour avec enfants.",
+    "host": {"name": "Quentin", "picture": "https://via.placeholder.com/100x100?text=Quentin"},
+    "rating": "4",
+    "equipments": ["Jardin", "Parking"],
+    "tags": ["famille"]
+  },
+  {
+    "id": "17",
+    "title": "Bungalow sur la plage",
+    "location": "Ajaccio, France",
+    "cover": "https://via.placeholder.com/600x400?text=Cover+17",
+    "pictures": [
+      "https://via.placeholder.com/600x400?text=17-1",
+      "https://via.placeholder.com/600x400?text=17-2",
+      "https://via.placeholder.com/600x400?text=17-3"
+    ],
+    "description": "Le sable fin à vos pieds dès le réveil.",
+    "host": {"name": "Rachel", "picture": "https://via.placeholder.com/100x100?text=Rachel"},
+    "rating": "5",
+    "equipments": ["Climatisation", "Parking"],
+    "tags": ["plage", "mer"]
+  },
+  {
+    "id": "18",
+    "title": "Studio fonctionnel",
+    "location": "Grenoble, France",
+    "cover": "https://via.placeholder.com/600x400?text=Cover+18",
+    "pictures": [
+      "https://via.placeholder.com/600x400?text=18-1",
+      "https://via.placeholder.com/600x400?text=18-2",
+      "https://via.placeholder.com/600x400?text=18-3"
+    ],
+    "description": "Tout le nécessaire pour un court séjour.",
+    "host": {"name": "Sophie", "picture": "https://via.placeholder.com/100x100?text=Sophie"},
+    "rating": "4",
+    "equipments": ["Wi-Fi", "Kitchenette"],
+    "tags": ["studio"]
+  },
+  {
+    "id": "19",
+    "title": "Appartement proche gare",
+    "location": "Dijon, France",
+    "cover": "https://via.placeholder.com/600x400?text=Cover+19",
+    "pictures": [
+      "https://via.placeholder.com/600x400?text=19-1",
+      "https://via.placeholder.com/600x400?text=19-2",
+      "https://via.placeholder.com/600x400?text=19-3"
+    ],
+    "description": "Idéal pour les voyageurs en transit.",
+    "host": {"name": "Thomas", "picture": "https://via.placeholder.com/100x100?text=Thomas"},
+    "rating": "3",
+    "equipments": ["Wi-Fi", "Ascenseur"],
+    "tags": ["gare"]
+  },
+  {
+    "id": "20",
+    "title": "Appartement dans le vieux port",
+    "location": "Brest, France",
+    "cover": "https://via.placeholder.com/600x400?text=Cover+20",
+    "pictures": [
+      "https://via.placeholder.com/600x400?text=20-1",
+      "https://via.placeholder.com/600x400?text=20-2",
+      "https://via.placeholder.com/600x400?text=20-3"
+    ],
+    "description": "Logement avec vue sur les bateaux.",
+    "host": {"name": "Ulysse", "picture": "https://via.placeholder.com/100x100?text=Ulysse"},
+    "rating": "4",
+    "equipments": ["Wi-Fi", "Cuisine"],
+    "tags": ["port", "vue"]
+  }
+]
